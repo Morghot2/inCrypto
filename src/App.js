@@ -15,8 +15,8 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div className="App">
-      <div className="Navbar">
+    <div className="app">
+      <div className="navbar">
         <Navbar />
       </div>
       <div className="main">
@@ -39,8 +39,21 @@ const App = () => {
             </Routes>
           </div>
         </Layout>
+      
+        <div className="footer">
+        <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>
+          <Link to="/">
+            inCrypto
+          </Link>
+         
+        </Typography.Title>
+        <Space>
+          <Link to="/">Home</Link>
+          <Link to="/exchanges">Exchanges</Link>
+          <Link to="/news">News</Link>
+        </Space>
       </div>
-      <div className="Footer"></div>
+      </div>
     </div>
   );
 };
