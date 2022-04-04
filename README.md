@@ -1,4 +1,5 @@
 🌑 inCrypto 🌕
+
 inCrypto is a hub to a cryptocurrency world. Explore different coins, check statistics, follow news and calculate your portfolio value!
 Technologies used: React, React Router, Redux Toolkit 
 
